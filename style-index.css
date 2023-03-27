@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    font-size: 1.8rem;
+    background: linear-gradient(#e66465, #9198e5);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+    padding: 20px;
+    height:80px;
+    color: indigo;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    border: 5px solid wheat;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+}
+
+.num{
+    font-size: 2.2rem;
+}
+
+.input{
+    border: .5px solid gray;
+    border-radius: 3.5px;
+    padding: 15px;
+    width: 250px;
+    margin: 10px;
+    font-size: 1.7rem;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.submit-input{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(64, 240, 11);
+    border-radius: 10px;
+    font-size: 2.5rem;
+    color: indigo;
+}
